@@ -44,6 +44,7 @@ export default function Home() {
       }
     });
     console.log(JSON.stringify(publicKeyCredential));
+    console.log(JSON.stringify(publicKeyCredential?.response.attestationObject));
   };
 
   return (
